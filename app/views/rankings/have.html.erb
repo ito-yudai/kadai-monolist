@@ -14,10 +14,12 @@
             
             <div class="panel-body">
               <p class="item-title"><%= link_to item.name, item %></p>
+              <div class="text-center buttons">
               <% if logged_in? %>
                 <%= render 'ownerships/want_button', item: item %>
                 <%= render 'ownerships/have_button', item: item %>
               <% end %>
+              </div>
             </div>
             
             <div class="panel-footer">
