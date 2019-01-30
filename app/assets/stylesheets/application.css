@@ -56,7 +56,7 @@ footer{
 
 /*item*/
 .item .panel-body{
-  height: 150px;
+  height: 120px;
 }
 
 .item .panel-heading{
@@ -68,7 +68,7 @@ footer{
   max-width: 100%;
 }
 
-.item buttons form{
+.item .buttons form{
   display: inline-block;
   margin: 0 5px;
 }
